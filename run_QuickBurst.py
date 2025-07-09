@@ -146,4 +146,7 @@ samples, acc_fraction, swap_record, rj_record, ptas, log_likelihood, betas, PT_a
                                                                     #per_psr_rn_start_file=RN_start_file,
                                                                     n_fish_update = n_fish_update,
                                                                     savepath=savepath, save_every_n=100,
-                                                                    n_fast_to_slow=projection_updates, thin = thinning)
+                                                                    n_fast_to_slow=projection_updates, thin = thinning,
+                                                                    write_run_parameters_to_file = True, 
+                                                                    data_directory = filepath, 
+                                                                    save_file = "default")

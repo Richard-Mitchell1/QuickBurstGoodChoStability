@@ -3,4 +3,7 @@ data/
 results/
 *.out
 *.lprof
-
+chains/
+run_QuickBurst.py
+docs/*
+tau_scans/
